@@ -1,0 +1,29 @@
+provider: openrouter # one of [openai, custom_openai, google, anthropic, openrouter, LocalHFProvider]
+model: google/gemma-2-9b-it
+api_key: EMPTY # insert your API key
+temperature: 0.0
+max_tokens: 350
+system_message: # set a custom system message
+# (for custom OpenAI-compatible API)
+provider_kwargs:
+  base_url: http://localhost:8000/v1 # example for vllm default
+
+rate_limiting:
+  enabled: false
+  requests_per_minute: 15
+
+limit: # limit to n examples
+#fast: true # use CoT or not
+
+data:
+  data_file: ./invalsi.jsonl
+  #few_shot_file: ./5_shots.jsonl
+  output_dir: results
+
+num_threads: 30
+
+auto_resume: true # resume from last checkpoint
+
+checkpointing:
+  enabled: true
+  checkpoint_interval: 50
