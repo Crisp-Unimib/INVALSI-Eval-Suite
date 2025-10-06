@@ -131,13 +131,23 @@ This benchmark is released under the MIT license with no restrictions on academi
 **BibTeX:**
 
 ```
-COMING SOON
+@InProceedings{10.1007/978-3-662-72243-5_17,
+author="Mercorio, Fabio and Mezzanzanica, Mario and Potert{\`i}, Daniele and Serino, Antonio and Seveso, Andrea",
+title="A Benchmark to Evaluate LLMs' Proficiency on Italian Student Competencies",
+booktitle="Machine Learning and Knowledge Discovery in Databases. Research Track and Applied Data Science Track",
+year="2026",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="292--309"
+}
+
+
 ```
 
 **APA:**
 
 ```
-COMING SOON
+Mercorio, F., Mezzanzanica, M., Potertì, D., Serino, A., Seveso, A. (2026). A Benchmark to Evaluate LLMs’ Proficiency on Italian Student Competencies. In: Pfahringer, B., et al. Machine Learning and Knowledge Discovery in Databases. Research Track and Applied Data Science Track. ECML PKDD 2025. Lecture Notes in Computer Science(), vol 16020. Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-662-72243-5_17
 ```
 
 ## Dataset Card Contact
