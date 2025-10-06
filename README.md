@@ -140,8 +140,6 @@ publisher="Springer Berlin Heidelberg",
 address="Berlin, Heidelberg",
 pages="292--309"
 }
-
-
 ```
 
 **APA:**
